@@ -15,38 +15,44 @@
   <body>
     <div class="container text-center">
       <h1 class="text-center mb-3 mt-3">My Calculator!</h1>
-      <input type="text" class="form-control text-end mb-3" placeholder="0" />
+      <input
+        id="main-input"
+        type="text"
+        class="form-control text-end mb-3"
+        placeholder="0"
+        readonly
+      />
       <div class="row mb-3">
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">7</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">7</button>
         </div>
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">8</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">8</button>
         </div>
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">9</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">9</button>
         </div>
       </div>
       <div class="row mb-3">
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">4</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">4</button>
         </div>
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">5</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">5</button>
         </div>
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">6</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">6</button>
         </div>
       </div>
       <div class="row">
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">1</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">1</button>
         </div>
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">2</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">2</button>
         </div>
         <div class="col gap-2">
-          <button type="button" class="btn btn-primary w-100">3</button>
+          <button type="button" class="btn btn-primary w-100 btn-nr">3</button>
         </div>
       </div>
     </div>
@@ -55,5 +61,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
