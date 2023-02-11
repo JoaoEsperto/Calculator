@@ -57,7 +57,7 @@ for (let button of nrButtons) {
 for (let button of opButtons) {
     button.addEventListener("click", () => {
         operand1 = parseFloat(input.value);
-        input.value = "";
+        input.value = " ";
         operator = button.textContent;
     })
 }
